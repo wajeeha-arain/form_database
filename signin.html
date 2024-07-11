@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav-log">
+             Project
+            </a>
+            <ul class="nav-items">
+             <il class="nav-item">
+                 <button><a href="#" class="nav-link" style="color: #fff;">Sign in</a></button>
+           
+                <button> <a href="./login.html" class="nav-link"style="color: #fff;">Login</a></button>
+            
+            
+             </il>
+            </ul>
+         </nav>
+     </header>
+
+
+    <div class="form-container">
+        <div class="uil-times">
+            <!-- login -->
+             <div class="login-form">
+                <form onsubmit="signin(event)">
+                    <h2>Sign in</h2>
+                    <div class="input-box">
+                        <input type="email" name="" id="email" placeholder="enter your email" required>
+                        <!-- <i class="fa-solid fa-user"></i> -->
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" name="" id="password" placeholder="enter your password" required>
+                        <!-- <i class="fa-solid fa-lock"></i> -->
+                    </div>
+                    
+
+                    <div class="option-field">
+                        <span class="ckeckBox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                            
+                        </span>
+                        <a href="#" class="forgot">
+                            Forgot password?
+                        </a>
+                    </div>
+                 </div>
+
+             <button class="button" type="submit">Sign in</button>
+                </form>
+
+            
+
+
+             <div class="last">
+                 Already have an account?<a href="./login.html">log in</a>
+             </div>
+        </div>
+    </div>
+
+    <!-- <script src="./app.js"></script> -->
+  
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+ 
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+ 
+    <script>
+     const firebaseConfig = {
+     apiKey: "AIzaSyBowvTpF5MyTs2pyR_goTGiF3SGywTPp-Y",
+     authDomain: "testing-app-3acb7.firebaseapp.com",
+     projectId: "testing-app-3acb7",
+     storageBucket: "testing-app-3acb7.appspot.com",
+     messagingSenderId: "410702172977",
+     appId: "1:410702172977:web:b6338c771b9a5497f59610",
+     measurementId: "G-6Z4DHGKLRH"
+   };
+ 
+   firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>

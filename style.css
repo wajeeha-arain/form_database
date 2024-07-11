@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background: url(./bgd.jpg)no-repeat; */
+    /* background: url(./images\ \(2\).jpeg)no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background: linear-gradient(135deg , #00feba, #5b548a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    width: 100%;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #f8f6f6;
+}
+
+ header{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    /* background-color: rgb(250, 245, 245); */
+    z-index: 100;
+    padding: 0 20px;
+    display: flex;
+    /* color: #fff; */
+    /* justify-content: space-between;
+    align-items: center;
+    flex-direction: row; */
+ }
+ .nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .nav, .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    /* color: #fff; */
+ }
+ .nav, .vav-logo{
+    font-size: 37px;
+    color: black;
+    font-weight: bolder;
+ }
+ button{
+     column-gap: 40px;
+     padding: 16px 16px 16px 16px;
+     border-radius: 8px;
+     border:1px solid rgb(243, 242, 242);
+     /* background-color: rgba(0, 0, 255, 0.438); */
+     /* color:#000; */
+     font-size: 17px;
+     font-weight: 600;
+     text-decoration: none;
+     background-color: #ffffff0e;
+
+
+ }
+ button a:hover{
+     color: #d9d9d9;
+     /* background-color: blue;
+     
+     */
+     cursor: pointer;
+ }
+ button:hover{
+    background-color: #5b548ace;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+ }
+
+
+ .allow{
+ 
+    text-align: center;
+   margin-left: 500px;
+   font-size: 22px;
+   font-weight: 600px;
+   /* border: 2px solid black; */
+   color: #fff;
+   height: 40px;
+    width: 310px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    border-radius: 8px;
+    background: linear-gradient(135deg , #00feba80, #5b548a96);
+    /* box-shadow: 0 0 15px blanchedalmond; */
+   
+ }
+ .uil-times{
+   max-width: 380px;
+   width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%,-50%);
+    z-index: 101;
+    background-color: #fff9f9e7;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    text-align: center;
+    color: #0c0b0b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: -180px;
+    box-shadow: rgb(0, 0, 0, .2);
+    margin-top: -190px;
+    /* border: 2px solid gray; */
+ }
+ /* .vav-home{
+   font-size: 16px;
+
+ } */
+ .form-container h2{
+    font-size: 22px;
+    color: #0c0c0c;
+    text-align: center;
+    font-size: 28px;
+ }
+ .input-box {
+  margin-top: 40px;
+    border: none;
+    border-radius: 4px;
+ }
+
+ .input-box
+ #email , #password{
+    padding: 10px;
+    font-size: 16px;
+ }
+ .input-box input{
+    width: 100%;
+    border: none;
+    border-bottom:1.5px #707070 solid ;
+    outline: none;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+ }
+ .input-box input:hover{
+border-bottom: #7d2aed ;
+ }
+ .input-box input:focus ~ #email:hover{
+
+    border-bottom: #7d2aed ;
+ }
+.form-container a{
+   color: #7d2ea7;
+   font-size: 12px;
+   justify-content: center;
+   align-items: center;
+   /* margin-bottom: 50px; */
+  
+}
+.form-container a:hover{
+   text-decoration: underline;
+}
+ .option-field{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 14px;
+   font-size: 12px;
+   white-space: nowrap;
+  
+
+ }
+ .ckeckBox input{
+   accent-color: #7d2ae8;
+ }
+ .ckeckBox label{
+      color: #0c0b0b;
+      font-size: 12px;
+      user-select: none;
+      cursor: pointer;
+
+
+ }
+ .form-container .button{
+     background-color: blue;
+     margin-top:30px ;
+     width: 100%;
+     /* padding: 0 10px; */
+     color: #fff;
+     outline: none;
+ }
+ .last {
+   margin-top: 16px;
+   font-size: 14px;
+   text-align: center;
+
+ }
